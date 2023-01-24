@@ -39684,14 +39684,16 @@ else r=!0}else r=!0
 return new A.ol(new A.cO(B.aU,new A.Hl(A.os(s.kG(0,"image"),q),A.os(s.kG(0,"name"),q),A.os(s.kG(0,"buylink"),q),null),null),r,null)},
 $S:420}
 A.Hl.prototype={
-L(a){var s,r,q,p,o=null,n=a.W(t.w).f.a,m=n.b,l=n.a*0.37,k=m*0.2
-l=A.ja(o,new A.cO(B.AL,A.ja(o,o,o,o,new A.dI(o,new A.ES(new A.qt(this.c),B.xJ),o,o,o,o,B.aw),k,o,o,l),o),B.j,o,o,k,o,o,l)
-k=m*0.02
-s=A.lI(this.d,o,o,o,A.ew(o,o,A.ajV(40,40,40,1),o,o,o,o,o,"Rasa",o,o,k,o,o,B.v,o,1.5,!0,o,0,o,o,o,o,o,o),B.l6,o)
-r=A.ano(B.zg,1)
-q=m*0.03
-p=m*0.013
-return A.ja(o,A.UQ(A.a([new A.cO(B.aU,l,o),new A.cO(B.AM,s,o),A.ako(!1,!0,new A.cO(B.aU,A.ja(o,A.lI("Buy Now",o,o,o,A.ew(o,o,A.ajV(40,40,40,1),o,o,o,o,o,"Montserrat",o,o,k,o,o,B.v,o,1,!0,o,0,o,o,o,o,o,o),B.f8,o),o,o,new A.dI(o,o,r,B.lR,o,o,B.aw),o,o,new A.aI(q,p,q,p),o),o),o,!0,o,o,o,o,o,o,o,o,o,new A.a2_(this),o,o,o,o)],t.p),B.cG,B.d5,B.hR),o,o,B.xH,m*0.35,o,o,m*0.24)}}
+L(a){var s,r,q,p,o,n=null,m=a.W(t.w).f.a,l=m.a,k=l>700?l*0.15:l*0.4,j=m.b
+l*=0.37
+s=j*0.2
+l=A.ja(n,new A.cO(B.AL,A.ja(n,n,n,n,new A.dI(n,new A.ES(new A.qt(this.c),B.xJ),n,n,n,n,B.aw),s,n,n,l),n),B.j,n,n,s,n,n,l)
+s=j*0.02
+r=A.lI(this.d,n,n,n,A.ew(n,n,A.ajV(40,40,40,1),n,n,n,n,n,"Rasa",n,n,s,n,n,B.v,n,1.5,!0,n,0,n,n,n,n,n,n),B.l6,n)
+q=A.ano(B.zg,1)
+p=j*0.03
+o=j*0.013
+return A.ja(n,A.UQ(A.a([new A.cO(B.aU,l,n),new A.cO(B.AM,r,n),A.ako(!1,!0,new A.cO(B.aU,A.ja(n,A.lI("Buy Now",n,n,n,A.ew(n,n,A.ajV(40,40,40,1),n,n,n,n,n,"Montserrat",n,n,s,n,n,B.v,n,1,!0,n,0,n,n,n,n,n,n),B.f8,n),n,n,new A.dI(n,n,q,B.lR,n,n,B.aw),n,n,new A.aI(p,o,p,o),n),n),n,!0,n,n,n,n,n,n,n,n,n,new A.a2_(this),n,n,n,n)],t.p),B.cG,B.d5,B.hR),n,n,B.xH,j*0.35,n,n,k)}}
 A.a2_.prototype={
 $0(){var s=0,r=A.a0(t.H),q=this,p
 var $async$$0=A.a1(function(a,b){if(a===1)return A.Y(b,r)
